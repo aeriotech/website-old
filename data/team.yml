@@ -1,0 +1,26 @@
+enable  : true
+title   : The Team
+members  :
+  - image       : images/team/aiken.jpeg
+    name        : Aiken Tine Ahac
+    designation : Founder
+    linkedIn    : https://www.linkedin.com/in/aahac/
+    instagram   : https://www.instagram.com/ahacaiken/
+
+  - image       : images/team/gasper.jpeg
+    name        : Gašper Dobrovoljc
+    designation : Founder
+    linkedIn    : https://www.linkedin.com/in/gasperdobrovoljc/
+    instagram   : https://www.instagram.com/gasper.db/
+
+  - image       : images/team/gregor.jpeg
+    name        : Gregor Kunc
+    designation : Co-Founder
+    linkedIn    : https://www.linkedin.com/in/gregor-kunc-87672320b/
+    instagram   : https://www.instagram.com/gregorkunc/
+
+  - image       : images/team/jure.jpeg
+    name        : Jure Maček
+    designation : Co-Founder
+    linkedIn    : https://www.linkedin.com/in/jure-ma%C4%8Dek-37972320b/
+    instagram   : https://www.instagram.com/juje_macek/
