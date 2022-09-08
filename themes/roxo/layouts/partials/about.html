@@ -1,0 +1,24 @@
+{{ with .Site.Data.about }}
+  {{ if .enable }}
+  <section class="site-about-header" style="background-color: #1A1A1A;">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="site-about-wrapper">
+            <div class="site-about-company">
+              <h1>
+                {{ .title }}
+              </h1>
+            </div>
+            <div class="site-about-description">
+              <p>
+                {{ .text }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

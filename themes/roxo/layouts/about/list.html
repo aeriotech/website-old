@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section class="site-about-header">
+<section class="site-about-header" style="background-color: #1A1A1A;">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -21,20 +21,20 @@
   </div>
 </section>
 
-<section class="site-expertise">
+<section class="site-expertise" style="background-color: #1A1A1A;">
   <div class="container">
     <div class="row">
       {{ with .Params.expertise_title }}
       <div class="col-md-5">
         <div class="section-title">
-          <h2>{{ . }}</h2>
+          <h2 style="color: white">{{ . }}</h2>
         </div>
       </div>
       {{ end }}
       <div class="col-md-6">
         <ul class="site-expertise-list">
           {{ range .Params.expertise_sectors }}
-          <li>{{ . }}</li>
+          <li style="color: white">{{ . }}</li>
           {{ end }}
         </ul>
       </div>
@@ -43,7 +43,5 @@
 </section>
 
 {{ partial "team.html" . }}
-
-{{ partial "call-to-action.html" . }}
 
 {{ end }}

@@ -1,27 +1,27 @@
 {{ with .Site.Data.team }}
   {{ if .enable }}
-  <section class="site-team">
+  <section class="site-team" style="background-color: #1A1A1A;">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="section-title">
-            <h2>
+            <h2 style="color: white">
               {{ .title }}
             </h2>
           </div>
         </div>
         {{ range .members }}
         <div class="col-lg-4 col-md-6">
-          <div class="site-team-member">
+          <div class="site-team-member" style="background-color: black;">
             <div class="site-team-member-image" >
               <img src="{{ .image | absURL }}" alt="team-member">
             </div>
             <div class="site-team-member-content">
               <h3>{{ .name }}</h3>
-              <p>{{ .designation }}</p>
+              <p style="color: white">{{ .designation }}</p>
               <ul class="site-team-member-social">
-                <li><a href="{{ .linkedin | absURL }}"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="{{ .instagram | absURL }}"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="{{ .linkedin | absURL }}"><i style="color: white" class="fa fa-linkedin"></i></a></li>
+                <li><a href="{{ .instagram | absURL }}"><i style="color: white" class="fa fa-instagram"></i></a></li>
               </ul>
             </div>
           </div>
