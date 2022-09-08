@@ -8,9 +8,11 @@
             <h2 style="color: white">{{ .title }}</h2>
           </div>
           <div class="site-client-wrapper">
-            {{ range .client_logos }}
-            <div style="filter: brightness(0) invert(1);" class="site-client-item">
-              <img src="{{ . | absURL }}" alt="client-logo" style="width: 100px">
+            {{ range .clients }}
+            <div style="filter: brightness(0) invert(1); display: flex; align-items: center;" class="site-client-item">
+              <a href="{{ .url | absURL }}" target="_blank" rel="noreferrer">
+                <img src="{{ .image | absURL }}" alt="client-logo" style="width: 100px" />
+              </a>
             </div>
             {{ end }}
           </div>

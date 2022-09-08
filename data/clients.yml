@@ -1,14 +1,35 @@
 enable        : true
 title         : "Companies we've worked with"
-client_logos  : 
-  ["images/clients/flare_logo.png",
-    "images/clients/dos.png",
-    "images/clients/mcd.png", 
-    "images/clients/wolt.png",
-    "images/clients/fundl.png",
-    "images/clients/ipm.png",
-    "images/clients/natures_finest.png",
-    "images/clients/oberc.png",
-    "images/clients/harveynorman.png",
-    "images/clients/sticna.png", 
-    "images/clients/lasko.png"]
+clients : 
+  - image : images/clients/flare_logo.png
+    url : https://getflare.eu/
+  
+  - image : images/clients/dos.png
+    url : https://dijaska.org/
+
+  - image : images/clients/mcd.png
+    url : https://mcdonalds.si/ 
+
+  - image : images/clients/wolt.png
+    url : https://wolt.com/sl/svn
+
+  - image : images/clients/fundl.png
+    url : https://www.tiktok.com/@fundl.si
+
+  - image : images/clients/ipm.png
+    url : https://ipm-komunikacije.si/
+
+  - image : images/clients/natures_finest.png
+    url : https://www.naturesfinest.si/
+
+  - image : images/clients/oberc.png
+    url : https://oberc.si/
+
+  - image : images/clients/harveynorman.png
+    url : https://www.harveynorman.si/
+
+  - image : images/clients/sticna.png
+    url : https://sticna.net/
+
+  - image : images/clients/lasko.png
+    url : https://lasko.info/
