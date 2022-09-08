@@ -1,4 +1,4 @@
 enable        : true
 title         : "Companies we've worked with"
 client_logos  : 
-  ["images/clients/client-logo-one.png", "images/clients/client-logo-two.png", "images/clients/client-logo-three.png", "images/clients/client-logo-four.png", "images/clients/client-logo-five.png", "images/clients/client-logo-six.png", "images/clients/client-logo-seven.png", "images/clients/client-logo-eight.png", "images/clients/client-logo-nine.png", "images/clients/client-logo-ten.png"]
+  ["images/clients/flare_logo.png", "images/clients/dos.png", "images/clients/mcd.png", "images/clients/wolt.png", "images/clients/fundl.png", "images/clients/ipm.png", "images/clients/natures_finest.png", "images/clients/oberc.png", "images/clients/harveynorman.png", "images/clients/sticna.png", "images/clients/lasko.png"]
