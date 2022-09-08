@@ -33,3 +33,6 @@ clients :
 
   - image : images/clients/lasko.png
     url : https://lasko.info/
+
+  - image : images/clients/km.png
+    url : https://katoliskamladina.si/
