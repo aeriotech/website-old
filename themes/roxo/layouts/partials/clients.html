@@ -9,7 +9,7 @@
           </div>
           <div class="site-client-wrapper" style="display: flex; align-items: center; justify-content: center;">
             {{ range .clients }}
-            <div style="filter: brightness(0) invert(1); display: flex; align-items: center;" class="site-client-item">
+            <div style="filter: brightness(0) invert(1); display: flex; align-items: center; justify-content: center;" class="site-client-item">
               <a href="{{ .url | absURL }}" target="_blank" rel="noreferrer">
                 <img src="{{ .image | absURL }}" alt="client-logo" style="width: 100px" />
               </a>
