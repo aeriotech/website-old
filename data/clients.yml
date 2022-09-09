@@ -19,6 +19,9 @@ clients :
   - image : images/clients/ipm.png
     url : https://ipm-komunikacije.si/
 
+  - image : images/clients/glcharge.png
+    url : https://glcharge.com
+
   - image : images/clients/natures_finest.png
     url : https://www.naturesfinest.si/
 
