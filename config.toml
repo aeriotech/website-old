@@ -35,6 +35,7 @@ summarylength = 25
   # Meta data
   description = "Aerio | Software for Everyone"
   author = "Aerio"
+  favicon = "images/favicon.ico"
   
   # Navbar Action Button
   [params.navAction]
