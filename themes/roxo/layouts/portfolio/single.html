@@ -1,11 +1,11 @@
 {{ define "main" }}
 
-<section class="site-project-single-section">
+<section class="site-project-single-section" style="background-color: #1A1A1A;">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <div class="site-project-single">
-          <h1>
+          <h1 style="color: #F0F0F0;">
             {{ .Title }}
           </h1>
           <div class="site-project-single-description">
@@ -13,21 +13,9 @@
           </div>
           <div class="site-project-single-image">
             {{ range .Params.project_images }}
-            <img src="{{ . | absURL }}" alt="project image">
+            <img src="{{ . | absURL }}" alt="project image" style="margin-bottom: 30px;">
             {{ end }}
           </div>
-          {{ if .NextInSection }}
-          <div class="site-project-single-action">
-            <a href="{{.NextInSection.Permalink}}">
-              <span class="link-area">
-                <span data-text="Next Project">
-                  Next Project
-                </span>
-              </span>
-              <img src="{{ "images/to-top.svg" | absURL }}" alt="next project">
-            </a>
-          </div>
-          {{ end }}
         </div>
       </div>
     </div>
