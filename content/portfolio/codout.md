@@ -11,7 +11,7 @@ project_images: [
 ]
 ---
 
-We were contracted to create a mobile application called CODout.
+We were contracted by a content creator from the US to create a mobile application called CODout.
 
 It serves as a tool for finding the best loadouts and gun configurations in the video game "Call of Duty: Warzone 2".
 
