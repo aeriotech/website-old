@@ -16,9 +16,6 @@ clients :
   - image : images/clients/fundl.png
     url : https://www.tiktok.com/@fundl.si
 
-  - image : images/clients/ipm.png
-    url : https://ipm-komunikacije.si/
-
   - image : images/clients/glcharge.png
     url : https://glcharge.com
 
@@ -33,9 +30,6 @@ clients :
 
   - image : images/clients/sticna.png
     url : https://sticna.net/
-
-  - image : images/clients/lasko.png
-    url : https://lasko.info/
 
   - image : images/clients/km.png
     url : https://katoliskamladina.si/
