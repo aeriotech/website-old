@@ -1,4 +1,4 @@
-baseURL       = "https://aerio.tech/"
+baseURL       = "https://old.aerio.tech/"
 languageCode  = "en-us"
 title         = "Aerio | Building the future"
 theme         = "roxo"
